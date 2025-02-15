@@ -7,18 +7,32 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		FA4B58F12C3C5CB600983EE9 /* ExchangeInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA4B58F02C3C5CB600983EE9 /* ExchangeInfo.swift */; };
+		FA4B58F52C3C692300983EE9 /* ExchangeRate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA4B58F42C3C692300983EE9 /* ExchangeRate.swift */; };
+		FA4EDF6B2C3EF536006EA86C /* CurrencyTip.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA4EDF6A2C3EF536006EA86C /* CurrencyTip.swift */; };
+		FA97BAAA2C3D2C8E005CB041 /* SelectCurrency.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA97BAA92C3D2C8E005CB041 /* SelectCurrency.swift */; };
+		FA97BAAC2C3D31DC005CB041 /* CurrencyIcon.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA97BAAB2C3D31DC005CB041 /* CurrencyIcon.swift */; };
 		FAA2C5492C3BDEC400DBDB0E /* LOTRConverter17App.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAA2C5482C3BDEC400DBDB0E /* LOTRConverter17App.swift */; };
 		FAA2C54B2C3BDEC400DBDB0E /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAA2C54A2C3BDEC400DBDB0E /* ContentView.swift */; };
 		FAA2C54D2C3BDEC500DBDB0E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FAA2C54C2C3BDEC500DBDB0E /* Assets.xcassets */; };
 		FAA2C5502C3BDEC500DBDB0E /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FAA2C54F2C3BDEC500DBDB0E /* Preview Assets.xcassets */; };
+		FABA0C642C3D813300ADEE11 /* Currency.swift in Sources */ = {isa = PBXBuildFile; fileRef = FABA0C632C3D813300ADEE11 /* Currency.swift */; };
+		FABA0C662C3DB74D00ADEE11 /* IconGrid.swift in Sources */ = {isa = PBXBuildFile; fileRef = FABA0C652C3DB74D00ADEE11 /* IconGrid.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		FA4B58F02C3C5CB600983EE9 /* ExchangeInfo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExchangeInfo.swift; sourceTree = "<group>"; };
+		FA4B58F42C3C692300983EE9 /* ExchangeRate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExchangeRate.swift; sourceTree = "<group>"; };
+		FA4EDF6A2C3EF536006EA86C /* CurrencyTip.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CurrencyTip.swift; sourceTree = "<group>"; };
+		FA97BAA92C3D2C8E005CB041 /* SelectCurrency.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelectCurrency.swift; sourceTree = "<group>"; };
+		FA97BAAB2C3D31DC005CB041 /* CurrencyIcon.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CurrencyIcon.swift; sourceTree = "<group>"; };
 		FAA2C5452C3BDEC400DBDB0E /* LOTRConverter17.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LOTRConverter17.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FAA2C5482C3BDEC400DBDB0E /* LOTRConverter17App.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LOTRConverter17App.swift; sourceTree = "<group>"; };
 		FAA2C54A2C3BDEC400DBDB0E /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		FAA2C54C2C3BDEC500DBDB0E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		FAA2C54F2C3BDEC500DBDB0E /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		FABA0C632C3D813300ADEE11 /* Currency.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Currency.swift; sourceTree = "<group>"; };
+		FABA0C652C3DB74D00ADEE11 /* IconGrid.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IconGrid.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,7 +66,14 @@
 			isa = PBXGroup;
 			children = (
 				FAA2C5482C3BDEC400DBDB0E /* LOTRConverter17App.swift */,
+				FABA0C632C3D813300ADEE11 /* Currency.swift */,
 				FAA2C54A2C3BDEC400DBDB0E /* ContentView.swift */,
+				FA97BAA92C3D2C8E005CB041 /* SelectCurrency.swift */,
+				FABA0C652C3DB74D00ADEE11 /* IconGrid.swift */,
+				FA97BAAB2C3D31DC005CB041 /* CurrencyIcon.swift */,
+				FA4B58F02C3C5CB600983EE9 /* ExchangeInfo.swift */,
+				FA4B58F42C3C692300983EE9 /* ExchangeRate.swift */,
+				FA4EDF6A2C3EF536006EA86C /* CurrencyTip.swift */,
 				FAA2C54C2C3BDEC500DBDB0E /* Assets.xcassets */,
 				FAA2C54E2C3BDEC500DBDB0E /* Preview Content */,
 			);
@@ -137,8 +158,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FABA0C662C3DB74D00ADEE11 /* IconGrid.swift in Sources */,
+				FA4B58F52C3C692300983EE9 /* ExchangeRate.swift in Sources */,
+				FA97BAAA2C3D2C8E005CB041 /* SelectCurrency.swift in Sources */,
+				FA4B58F12C3C5CB600983EE9 /* ExchangeInfo.swift in Sources */,
 				FAA2C54B2C3BDEC400DBDB0E /* ContentView.swift in Sources */,
+				FA4EDF6B2C3EF536006EA86C /* CurrencyTip.swift in Sources */,
 				FAA2C5492C3BDEC400DBDB0E /* LOTRConverter17App.swift in Sources */,
+				FABA0C642C3D813300ADEE11 /* Currency.swift in Sources */,
+				FA97BAAC2C3D31DC005CB041 /* CurrencyIcon.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
